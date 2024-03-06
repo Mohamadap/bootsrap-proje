@@ -98,3 +98,7 @@ ul > a :hover {
 .toggle-icon {
   cursor: pointer;
 }
+
+.white{
+  background-color: #fff !important;
+}

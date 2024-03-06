@@ -7,7 +7,10 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="style/style.css" />
     <link rel="stylesheet" href="style/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
   </head>
   <!--  -->
   <body>
@@ -38,14 +41,23 @@
                 <a class="text-light" href=""
                   ><li class="list-inline-item mx-2">Team</li></a
                 >
-                <div class="dropdown d-inline-flex ">
-                  <button class="btn dropdown-toggle text-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="dropdown d-inline-flex">
+                  <button
+                    class="btn dropdown-toggle text-light"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
                     Dropdown
                   </button>
                   <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
                   </ul>
                 </div>
                 <a class="text-light" href=""
@@ -71,14 +83,16 @@
               class="d-felx flex-row align-items-center justify-content-center"
             >
               <div class="mt-5 d-flex align-items-center">
-                <button class="btn btn-primary rounded-pill d-flex  align-items-center ">
+                <button
+                  class="btn btn-primary rounded-pill d-flex align-items-center"
+                >
                   <span class="p-1 fs-5">Get Started</span>
                 </button>
                 <a
                   class="ms-3 link-offset-2 link-underline link-underline-opacity-0 fs-4"
                   href=""
                   ><i class="bi bi-play-circle text-light fs-2"></i>
-                  <span class=" text-light">Watch Video</span></a
+                  <span class="text-light">Watch Video</span></a
                 >
               </div>
             </div>
@@ -169,13 +183,15 @@
             </p>
             <ul class="list-inline">
               <li class="list-inline-item my-1">
-                <i class="ri-check-double-line"></i> Ullamco laboris nisi ut
-                aliquip ex ea commodo consequat
+                <i class="bi bi-check2-all text-info"></i>
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat
               </li>
               <li class="list-inline-item my-1">
+                <i class="bi bi-check2-all text-info"></i>
                 Duis aute irure dolor in reprehenderit in voluptate velit
               </li>
               <li class="list-inline-item my-1">
+                <i class="bi bi-check2-all text-info"></i>
                 Ullamco laboris nisi ut aliquip ex ea commodo consequat
               </li>
             </ul>
@@ -216,7 +232,69 @@
               </p>
             </div>
             <div class="drop-list">
-              
+              <p class="d-inline-flex gap-1">
+                <a
+                  class="btn white rounded p-3"
+                  data-bs-toggle="collapse"
+                  href="#multiCollapseExample1"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample1"
+                >
+                <span class="text-info fs-5">01</span>
+                Non consectetur a erat nam at lectus urna duis? 
+                <i class="ms-3 bi bi-chevron-down"></i>
+                </a>
+              </p>
+              <div class="collapse ulti-collapse" id="multiCollapseExample1">
+                <div class="card card-body">
+                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
+                  volutpat lacus laoreet non curabitur gravida. Venenatis lectus
+                  magna fringilla urna porttitor rhoncus dolor purus non.
+                  </div>
+              </div>
+              <p class="d-inline-flex gap-1">
+                <a
+                  class="btn white rounded p-3"
+                  data-bs-toggle="collapse"
+                  href="#multiCollapseExample2"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample2"
+                >
+                <span class="text-info fs-5">02</span>
+                Non consectetur a erat nam at lectus urna duis? 
+                <i class="ms-3 bi bi-chevron-down"></i>
+                </a>
+              </p>
+              <div class="collapse  multi-collapse" id="multiCollapseExample2">
+                <div class="card card-body">
+                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
+                  volutpat lacus laoreet non curabitur gravida. Venenatis lectus
+                  magna fringilla urna porttitor rhoncus dolor purus non.
+                  </div>
+              </div>
+              <p class="d-inline-flex gap-1">
+                <a
+                  class="btn white rounded p-3"
+                  data-bs-toggle="collapse"
+                  href="#multiCollapseExample3"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="multiCollapseExample3"
+                >
+                <span class="text-info fs-5">03</span>
+                Non consectetur a erat nam at lectus urna duis? 
+                <i class="ms-3 bi bi-chevron-down"></i>
+                </a>
+              </p>
+              <div class="collapse multi-collapse" id="multiCollapseExample3">
+                <div class="card card-body">
+                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
+                  volutpat lacus laoreet non curabitur gravida. Venenatis lectus
+                  magna fringilla urna porttitor rhoncus dolor purus non.
+                  </div>
+              </div>
             </div>
           </div>
           <div class="col-lg-5">
@@ -301,7 +379,6 @@
       </div>
     </section>
 
-    
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
