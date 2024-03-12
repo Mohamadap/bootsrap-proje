@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+a{
+  text-decoration: none !important;
+}
 /* Option 2: Import via CSS */
 
 .color {
@@ -101,4 +104,34 @@ ul > a :hover {
 
 .white{
   background-color: #fff !important;
+}
+
+.line-w {
+  width: 10%;
+  height: 1px;
+  border: 1px solid #000;
+}
+
+.boxes{
+  height: 250px;
+}
+
+.c-h{
+  color: #37517e;
+}
+.bg-img{
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(../img/cta-bg.jpg) fixed center center;
+  padding: 120px 0;
+}
+
+.action-btn{
+  padding: 15px 40px;
+}
+
+.h-team{
+  height: 200px;
+}
+.img-team{
+  width: 150px;
+  height: 150px !important;
 }
