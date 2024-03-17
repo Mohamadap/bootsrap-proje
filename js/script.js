@@ -21,17 +21,3 @@ document.addEventListener('DOMContentLoaded', function () {
       item.style.filter = 'grayscale(100%)';
     });
 })
-// 
-
-function toggleContent() {
-  var content = document.getElementById('content');
-  var icon = document.getElementById('toggle-icon');
-
-  if (content.style.display === 'none') {
-    content.style.display = 'block';
-    icon.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up" viewBox="0 0 16 16"><path d="M0 12l8-8 8 8H0z"/></svg>';
-  } else {
-    content.style.display = 'none';
-    icon.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16"><path d="M0 4l8 8 8-8H0z"/></svg>';
-  }
-}

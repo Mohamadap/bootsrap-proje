@@ -168,3 +168,15 @@ sub{
   width: 150px;
   height: 50px;
 }
+.f-btn{
+  width: 40px;
+  height: 40px;
+}
+.list-s{
+  background-color: white;
+ padding: 20px;
+
+}
+.blu{
+  color: #37517e;
+}
