@@ -180,3 +180,6 @@ sub{
 .blu{
   color: #37517e;
 }
+input{
+  border: outset;
+}
