@@ -183,3 +183,6 @@ sub{
 input{
   border: outset;
 }
+.social-icon{
+  height: 42px;
+}
